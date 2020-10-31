@@ -1295,9 +1295,9 @@ button, input, textarea, select { font-family: 'SF Pro Display', sans-serif; }
 
 .footer__list .footer__link { font-size: 0; }
 
-.footer__list .footer__link .icon { font-size: 16px; fill: #ADADAD; -webkit-transition: fill .25s; -o-transition: fill .25s; transition: fill .25s; }
+.footer__list .footer__link .icon { font-size: 22px; fill: #ADADAD; -webkit-transition: fill .25s; -o-transition: fill .25s; transition: fill .25s; }
 
-.footer__list .footer__link .icon-youtube { font-size: 12px; }
+.footer__list .footer__link .icon-youtube { font-size: 18px; }
 
 .footer__list .footer__link .icon:hover { fill: #2874b0; }
 
