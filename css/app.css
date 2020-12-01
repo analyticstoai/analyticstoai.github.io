@@ -1569,6 +1569,14 @@ button, input, textarea, select { font-family: 'SF Pro Display', sans-serif; }
 
 .industryicon { padding: 20px; border: 4px solid #FFFFFF; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: -5px 5px 10px rgba(241, 241, 241, 0.2), 5px -5px 10px rgba(238, 238, 238, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(236, 236, 236, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(214, 214, 214, 0.5); box-shadow: -5px 5px 10px rgba(241, 241, 241, 0.2), 5px -5px 10px rgba(238, 238, 238, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(236, 236, 236, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(214, 214, 214, 0.5); border-radius: 30px; }
 
+.featuretile { background-color: #fff; -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); border-radius: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; padding: 30px; max-width: 400px; min-height: 130px; margin: 20px 10px; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; color: #232340; }
+
+.featuretile:hover { -webkit-box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07), 1px 6px 12px rgba(39, 44, 49, 0.04); box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07), 1px 6px 12px rgba(39, 44, 49, 0.04); -webkit-transform: translate3D(0, -1px, 0) scale(1.02); -ms-transform: translate3D(0, -1px, 0) scale(1.02); transform: translate3D(0, -1px, 0) scale(1.02); -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+
+.featuretileimage { width: 80px; height: 80px; -o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; border-radius: 100%; }
+
+.featuretilemargin { margin-right: 12.5px; }
+
 @media only screen and (max-width: 1439px) { .case__bg { width: 700px; } .quality__head { margin-bottom: 70px; } .cases { margin-bottom: 230px; } }
 
 @media only screen and (max-width: 1365px) { .details__body { -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .details__year:not(:last-child) { margin-bottom: 80px; } .work { margin-bottom: 0px; } .projects__item:nth-child(3) { margin-right: 50px; } .projects__item:nth-child(4) { margin-left: 50px; } .about__head { padding-bottom: 140px; } .overview__wrap { padding-left: 80px; } .overview__inner { padding: 70px 20px; } .advantages__wrap { padding: 0 80px; } .cases__head { padding-left: 160px; } .cases__container { padding-left: 160px; } }
